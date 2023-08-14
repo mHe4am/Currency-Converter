@@ -1,7 +1,7 @@
 // Fetch data from API
 async function getData() {
   let response = await fetch(
-    "https://api.currencyfreaks.com/v2.0/rates/latest?apikey=27068682e6004e139bce53b5b39f9d04"
+    "https://api.currencyfreaks.com/v2.0/rates/latest?apikey=930a3b8cff7a4e00b2523c59101c69ac"
   );
   let data = response.json();
   return data;
