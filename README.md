@@ -18,7 +18,7 @@ This is a simple web app that allows you to convert between different currencies
 -   CurrencyFreaks API
 
 ## Screenshots
-![Site-ScreenShot](.\imgs\ScreenShot.jpg)
+![Site-ScreenShot](imgs/ScreenShot.jpg)
 
 ## Live Demo
 [Currency Converter](https://cu-da.github.io/Currency-Converter)
