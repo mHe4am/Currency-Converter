@@ -1,9 +1,11 @@
+
 # Currency Converter
 
 This is a simple web app that allows you to convert between different currencies using the latest exchange rates from [CurrencyFreaks API](https://currencyfreaks.com/).
 
 ## Features
 
+-   Choose from over 400 currencies
 -   You can enter any amount in the first input field and select the currency type from the dropdown menu.
 -   You can see the converted amount in the second input field and select the currency type from the dropdown menu.
 -   You can switch the currency types by clicking on the switch icon.
@@ -19,6 +21,3 @@ This is a simple web app that allows you to convert between different currencies
 
 ## Screenshots
 ![Site-ScreenShot](imgs/ScreenShot.jpg)
-
-## Live Demo
-[Currency Converter](https://cu-da.github.io/Currency-Converter)
