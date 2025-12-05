@@ -49,10 +49,15 @@ function update() {
 switchCurr.onclick = () => {
   [currOne.value, currTwo.value] = [currTwo.value, currOne.value];
   [inputOne.value, inputTwo.value] = [inputTwo.value, inputOne.value];
+  update();
 };
 
 inputOne.addEventListener("input", () => {
   update();
+});
+inputTwo.addEventListener("input", () => {
+  inputOne.value =
+    (inputTwo.value * rates[currOne.value]) / rates[currTwo.value];
 });
 [currOne, currTwo].forEach((select) => {
   select.addEventListener("change", () => {
